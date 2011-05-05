@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4
+END
+encrypted.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/encrypted.png
+END
+key_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/key_small.png
+END
+signed_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/signed_small.png
+END
+key_large.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/key_large.png
+END
+signed_large.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/signed_large.png
+END
+encrypted_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/encrypted_small.png
+END
+encrypted_large.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/encrypted_large.png
+END
+ic_previous.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/165/trunk/res/drawable-ldpi-v4/ic_previous.png
+END
+key.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/key.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/icon.png
+END
+ic_next.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/165/trunk/res/drawable-ldpi-v4/ic_next.png
+END
+signed.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/signed.png
+END
+overlay_error.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/overlay_error.png
+END
+overlay_ok.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/227/trunk/res/drawable-ldpi-v4/overlay_ok.png
+END

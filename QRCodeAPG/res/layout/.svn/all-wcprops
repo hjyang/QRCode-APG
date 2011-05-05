@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/277/trunk/res/layout
+END
+edit_key_section.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/239/trunk/res/layout/edit_key_section.xml
+END
+key_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/239/trunk/res/layout/key_list.xml
+END
+add_account_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/257/trunk/res/layout/add_account_dialog.xml
+END
+edit_key_key_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/273/trunk/res/layout/edit_key_key_item.xml
+END
+key_server_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/271/trunk/res/layout/key_server_editor.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/239/trunk/res/layout/main.xml
+END
+encrypt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/239/trunk/res/layout/encrypt.xml
+END
+edit_key_user_id_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/273/trunk/res/layout/edit_key_user_id_item.xml
+END
+select_public_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/239/trunk/res/layout/select_public_key.xml
+END
+key_list_child_item_sub_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/239/trunk/res/layout/key_list_child_item_sub_key.xml
+END
+key_list_child_item_master_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/239/trunk/res/layout/key_list_child_item_master_key.xml
+END
+info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/239/trunk/res/layout/info.xml
+END
+select_secret_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/239/trunk/res/layout/select_secret_key.xml
+END
+edit_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/246/trunk/res/layout/edit_key.xml
+END
+file_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/252/trunk/res/layout/file_dialog.xml
+END
+filter_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/239/trunk/res/layout/filter_info.xml
+END
+key_server_query_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/273/trunk/res/layout/key_server_query_layout.xml
+END
+select_public_key_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/239/trunk/res/layout/select_public_key_item.xml
+END
+pass_phrase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/239/trunk/res/layout/pass_phrase.xml
+END
+select_secret_key_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/239/trunk/res/layout/select_secret_key_item.xml
+END
+decrypt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/277/trunk/res/layout/decrypt.xml
+END
+account_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/239/trunk/res/layout/account_item.xml
+END
+create_key.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/273/trunk/res/layout/create_key.xml
+END
+key_server_query_result_user_id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/268/trunk/res/layout/key_server_query_result_user_id.xml
+END
+key_server_preference.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/271/trunk/res/layout/key_server_preference.xml
+END
+general.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/239/trunk/res/layout/general.xml
+END
+key_list_group_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/239/trunk/res/layout/key_list_group_item.xml
+END
+mailbox_message_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/239/trunk/res/layout/mailbox_message_item.xml
+END
+key_list_child_item_user_id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/239/trunk/res/layout/key_list_child_item_user_id.xml
+END
+key_server_query_result_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/268/trunk/res/layout/key_server_query_result_item.xml
+END

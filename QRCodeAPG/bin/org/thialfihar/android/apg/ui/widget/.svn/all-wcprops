@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/311/trunk/src/org/thialfihar/android/apg/ui/widget
+END
+SectionView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/239/trunk/src/org/thialfihar/android/apg/ui/widget/SectionView.java
+END
+KeyEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/311/trunk/src/org/thialfihar/android/apg/ui/widget/KeyEditor.java
+END
+UserIdEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/239/trunk/src/org/thialfihar/android/apg/ui/widget/UserIdEditor.java
+END
+KeyServerEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/273/trunk/src/org/thialfihar/android/apg/ui/widget/KeyServerEditor.java
+END
+Editor.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/239/trunk/src/org/thialfihar/android/apg/ui/widget/Editor.java
+END
+IntegerListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/272/trunk/src/org/thialfihar/android/apg/ui/widget/IntegerListPreference.java
+END

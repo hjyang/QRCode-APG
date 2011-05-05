@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/272/trunk/res/xml
+END
+searchable_public_keys.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/239/trunk/res/xml/searchable_public_keys.xml
+END
+apg_preferences.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/272/trunk/res/xml/apg_preferences.xml
+END
+searchable_secret_keys.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/239/trunk/res/xml/searchable_secret_keys.xml
+END

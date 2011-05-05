@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4
+END
+btn_circle_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/btn_circle_selected.png
+END
+btn_circle_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/btn_circle_normal.png
+END
+btn_circle_disable_focused.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/btn_circle_disable_focused.png
+END
+ic_btn_round_minus.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/ic_btn_round_minus.png
+END
+btn_circle_disable.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/btn_circle_disable.png
+END
+ic_btn_round_plus.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/ic_btn_round_plus.png
+END
+btn_circle_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/165/trunk/res/drawable-mdpi-finger-v4/btn_circle_pressed.png
+END
