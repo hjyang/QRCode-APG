@@ -538,6 +538,10 @@ public class PGPPublicKey
         }
     }
     
+    public PublicKeyPacket getKeyPacket()
+    {
+      return publicPk;
+    }
     /**
      * Return any userIDs associated with the key.
      * 

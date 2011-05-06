@@ -1,6 +1,9 @@
 package com.murasaki.android.apg;
 
+import com.murasaki.android.qrcode.Intents;
 import org.bouncycastle2.openpgp.PGPPublicKey;
+import org.bouncycastle2.bcpg.PublicKeyPacket;
+import org.bouncycastle2.bcpg.BCPGKey;
 import org.bouncycastle2.openpgp.PGPPublicKeyRing;
 import org.bouncycastle2.util.encoders.Hex;
 import org.bouncycastle2.util.encoders.HexEncoder;
@@ -8,10 +11,14 @@ import org.thialfihar.android.apg.Apg;
 import org.thialfihar.android.apg.Constants;
 import org.thialfihar.android.apg.Id;
 import org.thialfihar.android.apg.BaseActivity;
-import org.thialfihar.android.apg.KeyListActivity;
-import org.thialfihar.android.apg.KeyServerQueryActivity;
-import org.thialfihar.android.apg.PublicKeyListActivity;
-import org.thialfihar.android.apg.SelectSecretKeyListAdapter;
+//import org.thialfihar.android.apg.KeyListActivity;
+//import org.thialfihar.android.apg.KeyServerQueryActivity;
+//import org.thialfihar.android.apg.PublicKeyListActivity;
+//import org.thialfihar.android.apg.SelectSecretKeyListAdapter;
+
+import com.google.zxing.BarcodeFormat;
+import com.murasaki.android.qrcode.Contents;
+import com.murasaki.android.qrcode.Intents;
 
 import android.app.SearchManager;
 import android.content.Intent;
@@ -31,7 +38,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.lang.Long;
+//import java.lang.Long;
+import java.security.MessageDigest;
 
 public class SelectShareKeyListActivity extends BaseActivity {
     protected ListView mList;
@@ -57,11 +65,35 @@ public class SelectShareKeyListActivity extends BaseActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 
             	PGPPublicKey masterKey = Apg.getPublicKey(id);
-            	byte[] finger_print    = masterKey.getFingerprint();
-            	byte[] hex_fingerp     = Hex.encode(finger_print);
-            	String fp_str          = new String(hex_fingerp);
+            	byte[] public_key = masterKey.getKeyPacket().getKey().getEncoded();
             	
-            	Toast.makeText(getApplicationContext(), fp_str, Toast.LENGTH_SHORT).show();
+            	//MessageDigest md = MessageDigest.getInstance("SHA-256");
+             	try { MessageDigest md = MessageDigest.getInstance("SHA-1");
+            	      md.update(public_key); 
+            	      byte[] hashed_key = md.digest();
+            	      byte[] hex_hashed_key = Hex.encode(hashed_key);
+            	      String hashed_key_str = new String(hex_hashed_key);
+ 
+            	      Intent intent = new Intent(Intents.Encode.ACTION);
+            	      intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+            	      intent.putExtra(Intents.Encode.TYPE, Contents.Type.TEXT);
+            	      intent.putExtra(Intents.Encode.DATA, hashed_key_str);
+            	      intent.putExtra(Intents.Encode.FORMAT, BarcodeFormat.QR_CODE.toString());
+            	      startActivity(intent);            	      
+            	      
+            	      //Toast.makeText(getApplicationContext(), hashed_key_str, Toast.LENGTH_SHORT).show();
+             	    }
+             	catch( Exception e )
+             	{
+             		String err_msg = new String("no such hash algorithm");
+             		Toast.makeText(getApplicationContext(), err_msg, Toast.LENGTH_SHORT).show();
+             	}
+            	
+            	//byte[] finger_print    = masterKey.getFingerprint();
+            	//byte[] hex_fingerp     = Hex.encode(finger_print);
+            	//String fp_str          = new String(hex_fingerp);
+            	
+            	//Toast.makeText(getApplicationContext(), fp_str, Toast.LENGTH_SHORT).show();
             	
             	//Toast.makeText(getApplicationContext(), Long.toHexString(id), Toast.LENGTH_SHORT).show();
             	

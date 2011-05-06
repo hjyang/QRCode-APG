@@ -35,6 +35,24 @@
                 android:resource="@xml/searchable_secret_keys"/>            
         </activity>
 
+        <activity android:name="com.murasaki.android.qrcode.CaptureActivity"
+                  android:screenOrientation="landscape"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.murasaki.android.qrcode.SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.murasaki.android.qrcode.encode.EncodeActivity" android:label="@string/share_name">
+            <intent-filter>
+                <action android:name="com.murasaki.android.qrcode.ENCODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
         <activity
             android:name="org.thialfihar.android.apg.PublicKeyListActivity"
             android:label="@string/title_managePublicKeys"
@@ -210,12 +228,15 @@
 
     </application>
     <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="9" />
-
+    <uses-feature android:name="android.hardware.camera"/>
     <permission android:name="org.thialfihar.android.apg.permission.READ_KEY_DETAILS"
                 android:protectionLevel="dangerous"
                 android:label="@string/permission_read_key_details_label"
                 android:description="@string/permission_read_key_details_description"/>
-
+  
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <uses-permission android:name="com.google.android.providers.gmail.permission.READ_GMAIL" />
     <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

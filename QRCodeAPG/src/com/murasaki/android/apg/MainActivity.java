@@ -16,6 +16,8 @@ import org.thialfihar.android.apg.PublicKeyListActivity;
 import org.thialfihar.android.apg.SecretKeyListActivity;
 import org.thialfihar.android.apg.provider.Accounts;
 
+import com.murasaki.android.qrcode.CaptureActivity;
+
 //import com.murasaki.android.apg.R;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -314,7 +316,12 @@ public class MainActivity extends BaseActivity {
                startActivity(new Intent(this, SelectShareKeyListActivity.class));
                return true;
             }
-
+            case SCAN_ID: 
+            {
+               Intent intent = new Intent(this, CaptureActivity.class);
+               startActivity(intent);
+               return true;
+            }
             case Id.menu.option.create: {
                 showDialog(Id.dialog.new_account);
                 return true;

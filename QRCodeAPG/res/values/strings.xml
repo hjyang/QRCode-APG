@@ -2,7 +2,22 @@
 
 <resources>
     <string name="app_name">QRCode APG</string>
-
+    <string name="button_ok">OK</string>
+    <string name="button_get_sign_key">Get and Sign key</string>
+    <string name="contents_text">Hashed key and link</string>
+    <string name="msg_default_contents">Contents</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the key provided.</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="share_name">Key Sharing</string>
+    <string name="result_text">Detect shared key</string>
+    
+    
     <!-- title_lowerCase: capitalized words, no punctuation -->
     <string name="title_mailInbox">Mail Inbox</string>
     <string name="title_managePublicKeys">Manage Public Keys</string>
@@ -129,7 +144,7 @@
     <string name="expired">expired</string>
     <string name="notValid">not valid</string>
     <string name="nKeyServers">%s key server(s)</string>
-    <string name="fingerprint">fingerprint</string>
+    <string name="fingerprint">finger print</string>
 
     <!-- choice_lowerCase: capitalized first word, no punctuation -->
     <string name="choice_none">None</string>
